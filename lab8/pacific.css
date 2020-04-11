@@ -15,11 +15,8 @@ body {
 }
 
 header {
-	padding-top: 15px;
-	padding-left: 3em;
 	height: 60px;
 	background-color: #000033;
-	height: 120px;
 	background-position: right;
 	background-repeat: no-repeat;
 	color: #FFFFFF;
