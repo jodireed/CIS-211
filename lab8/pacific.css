@@ -79,7 +79,7 @@ nav ul {
 }
 
 nav li {
-	border-bottom: 1px solid #000033;
+	border-bottom: none;
 }
 
 main {
@@ -159,3 +159,11 @@ dt {
 }
 
 * {box-sizing: border-box;}
+
+@media (min-width:600px) {
+	nav ul {
+	display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+}
