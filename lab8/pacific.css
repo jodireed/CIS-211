@@ -82,6 +82,10 @@ nav ul {
 	padding-left: 0;
 }
 
+nav li {
+	border-bottom: 1px, #000033;
+}
+
 main {
 	display: block;
 	padding: 1px 20px 20px 30px;
