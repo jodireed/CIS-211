@@ -210,7 +210,7 @@ dt {
 		grid-column: 1 / 5;
 	}
 
-	footer{
+	footer {
 		grid-row: auto;
 		grid-column: 1 / 5;
 	}
