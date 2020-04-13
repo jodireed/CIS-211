@@ -90,11 +90,11 @@ nav ul {
 }
 
 nav li {
-	border-bottom: none;
+	border-bottom: 1px #000033 solid;
 
 }
 
-div{
+div {
 	grid-row: 2 / 3;
 	grid-column: 2 / 3;
 }
@@ -115,20 +115,10 @@ main {
 }
 
 h1 {
-	letter-spacing: .25em;
-	top: 0.5em;
-	bottom: 0.5em;
-}
-
-h2,
-
-h3 {
-	font-family: 'Buda', Georgia, 'Times New Roman', serif;
-}
-
-h1 {
 	margin-top: 0;
 	margin-bottom: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 h2 {
@@ -137,6 +127,7 @@ h2 {
 }
 
 h3 {
+	font-family: 'Buda', Georgia, 'Times New Roman', serif;
 	color: #000033;
 }
 
