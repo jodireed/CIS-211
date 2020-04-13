@@ -90,8 +90,9 @@ main {
 }
 
 h1 {
-	font-size: 3em;
 	letter-spacing: .25em;
+	top: 0.5em;
+	bottom: 0.5em;
 }
 
 h2,
@@ -124,13 +125,6 @@ footer {
 
 dt {
 	color: #000033;
-}
-
-section {
-	width: 33%;
-	padding-left: 2em;
-	padding-right: 2em;
-
 }
 
 .resort {
