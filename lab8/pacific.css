@@ -7,15 +7,24 @@ body {
 }
 
 .wrapper {
-	
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	margin-right: auto;
+	margin-left: auto;
 	background-color: #90C7E3;
 	background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
 	background-repeat: no-repeat;
-	
+	box-shadow: 3px 3px 3px #333333;
+	border: 1px solid #000033;
 }
 
 header {
+	padding-top: 15px;
+	padding-left: 3em;
+	height: 60px;
 	background-color: #000033;
+	height: 120px;
 	background-position: right;
 	background-repeat: no-repeat;
 	color: #FFFFFF;
@@ -46,10 +55,11 @@ header a:active {
 	
 }
 nav {
-	padding: 0em;
+	padding: 1.5em;
 	font-size: 120%;
+	width: 160px;
+	float: left;
 	font-weight: bold;
-	text-align: center;
 }
 
 nav a {
@@ -78,27 +88,17 @@ nav ul {
 	padding-left: 0;
 }
 
-nav li {
-	border-bottom: 1px #000033 solid;
-}
-
-section {
-	width: 33%;
-	padding-left:2em;
-	padding-right: 2em;
-}
-
 main {
 	display: block;
 	padding: 1px 20px 20px 30px;
 	background-color: white;
+	margin-left: 190px;
 	overflow: auto;
 
 }
 
 h1 {
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	font-size: 3em;
 	letter-spacing: .25em;
 }
 
@@ -127,11 +127,20 @@ footer {
 	text-align: center;
 	font-size: 75%;
 	font-family: 'Merriweather Sans', Georgia, 'Times New Roman', serif;
+	margin-left: 190px;
 	background-color: white;
 }
 
 dt {
 	color: #000033;
+}
+
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+
 }
 
 .resort {
@@ -147,6 +156,7 @@ dt {
 	height: 300px;
     background-size: 100% 100%;
 	background-image: url(images/coast2.jpg);
+	margin-left: 190px;
 	background-repeat: no-repeat;
 }
 
@@ -154,6 +164,7 @@ dt {
 	height: 300px;
     background-size: 100% 100%;
 	background-image: url(images/yurt.jpg);
+	margin-left: 190px;
 	background-repeat: no-repeat;
 }
 
@@ -161,15 +172,8 @@ dt {
 	height: 300px;
     background-size: 100% 100%;
 	background-image: url(images/trail.jpg);
+	margin-left: 190px;
 	background-repeat: no-repeat;
 }
 
 * {box-sizing: border-box;}
-
-@media (min-width:600px) {
-	nav ul {
-	display: flex;
-		flex-flow: row nowrap;
-		justify-content: space-around;
-	}
-}
