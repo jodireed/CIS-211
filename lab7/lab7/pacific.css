@@ -58,7 +58,6 @@ nav {
 	padding: 1.5em;
 	font-size: 120%;
 	width: 160px;
-	float: left;
 	font-weight: bold;
 }
 
@@ -136,7 +135,6 @@ dt {
 }
 
 section {
-	float: left;
 	width: 33%;
 	padding-left: 2em;
 	padding-right: 2em;
