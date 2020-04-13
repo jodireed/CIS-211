@@ -7,16 +7,9 @@ body {
 }
 
 .wrapper {
-	width: 80%;
-	min-width: 960px;
-	max-width: 2048px;
-	margin-right: auto;
-	margin-left: auto;
 	background-color: #90C7E3;
 	background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
 	background-repeat: no-repeat;
-	box-shadow: 3px 3px 3px #333333;
-	border: 1px solid #000033;
 }
 
 header {
