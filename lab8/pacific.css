@@ -82,6 +82,12 @@ nav li {
 	border-bottom: 1px #000033 solid;
 }
 
+section {
+	width: 33%;
+	padding-left:2em;
+	padding-right: 2em;
+}
+
 main {
 	display: block;
 	padding: 1px 20px 20px 30px;
