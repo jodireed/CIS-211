@@ -79,7 +79,7 @@ nav ul {
 }
 
 nav li {
-	border-bottom: none;
+	border-bottom: 1px #000033 solid;
 }
 
 main {
