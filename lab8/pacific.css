@@ -78,7 +78,13 @@ nav ul {
 }
 
 nav li {
-	border-bottom: 1px #000033 solid
+	border-bottom: none;
+
+}
+
+section {
+	padding-right: 2em;
+	padding-left: 2em;
 }
 
 main {
@@ -155,6 +161,24 @@ dt {
     background-size: 100% 100%;
 	background-image: url(images/trail.jpg);
 	background-repeat: no-repeat;
+}
+
+.content main { 
+    display: grid; 
+    grid-template-rows: auto ; 
+    grid-template-columns: 1fr 1fr 1fr; }
+    h2 { grid-row: 1 / 2; grid-column: 1 / 5; }
+    section { grid-row: 2 / 3; grid-column: auto; }
+    .special { grid-row: auto; grid-column: 1 / 5; }
+    footer { grid-row: auto; grid-column: 1 / 5;
+ } 
+
+@media (min-width: 600px) {
+	nav ul {
+		display:flex;
+			flex-flow: row nowrap;
+			justify-content: space-around;
+	}
 }
 
 * {box-sizing: border-box;}
