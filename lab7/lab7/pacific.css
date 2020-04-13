@@ -55,10 +55,10 @@ header a:active {
 	
 }
 nav {
-	padding: 1.5em;
+	padding: 0em;
 	font-size: 120%;
-	width: 160px;
 	font-weight: bold;
+	text-align: center;
 }
 
 nav a {
