@@ -122,8 +122,6 @@ footer {
 	font-size: 75%;
 	font-family: 'Merriweather Sans', Georgia, 'Times New Roman', serif;
 	background-color: white;
-	grid-row: auto;
-	grid-column: 2 / 3;
 }
 
 dt {
