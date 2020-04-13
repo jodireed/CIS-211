@@ -86,7 +86,6 @@ main {
 	display: block;
 	padding: 1px 20px 20px 30px;
 	background-color: white;
-	margin-left: 190px;
 	overflow: auto;
 
 }
@@ -121,7 +120,6 @@ footer {
 	text-align: center;
 	font-size: 75%;
 	font-family: 'Merriweather Sans', Georgia, 'Times New Roman', serif;
-	margin-left: 190px;
 	background-color: white;
 }
 
@@ -149,7 +147,6 @@ section {
 	height: 300px;
     background-size: 100% 100%;
 	background-image: url(images/coast2.jpg);
-	margin-left: 190px;
 	background-repeat: no-repeat;
 }
 
@@ -157,7 +154,6 @@ section {
 	height: 300px;
     background-size: 100% 100%;
 	background-image: url(images/yurt.jpg);
-	margin-left: 190px;
 	background-repeat: no-repeat;
 }
 
@@ -165,7 +161,6 @@ section {
 	height: 300px;
     background-size: 100% 100%;
 	background-image: url(images/trail.jpg);
-	margin-left: 190px;
 	background-repeat: no-repeat;
 }
 
