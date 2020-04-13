@@ -46,12 +46,9 @@ header a:active {
 	
 }
 nav {
-	padding-left: 1em;
 	font-size: 120%;
 	font-weight: bold;
 	text-align: center;
-	grid-row: 2 / 5;
-	grid-column: 1 / 2;
 }
 
 nav a {
@@ -75,10 +72,8 @@ nav a:active {
 }
 
 nav ul {
-	flex-direction: column;
 	list-style-type: none;
 	margin: 0;
-	padding-top: 1em;
 	padding-left: 0;
 }
 
