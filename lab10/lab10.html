@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 10</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <h1> Contact information </h1>
+            <form class="formStyle">
+
+                <!--First Name-->
+                <label for="firstName">First Name:</label> <br>
+                <input type="text" id="firstName" name="firstName"><br>
+
+                <!--Last Name-->
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" id="lastName" name="lastName"><br>
+
+                <!--Email-->
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+
+                <!--Phone-->
+                <label for="phone">Phone:</label><br>
+                <input type="text" id="phone" name="phone>"><br>
+                
+            </form>
+
+        <h1>Reservation Information</h1>
+            <form class="formStyle">
+
+                <!--Arrival Date-->
+                <label for="arrivalDate">Arrival Date</label><br>
+                <input type="text" id="arrivalDate" name="arrivalDate"><br>
+
+                <!--Dropdown Menu Nights-->
+                <label for="nightSelect">Nights:</label>
+                <select name="nights" id="nightSelect">
+                    <option value="">Select Option</option>
+                    <option value="One">One</option>
+                    <option value="Two">Two</option>
+                    <option value="allNight">Saturday Night</option>
+                    <option value="wut">Arabian Night</option>
+                    <option value="wtf">M. Night Shyamalan</option>
+                </select><br>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" rows= "6" cols="34"></textarea>
+
+                <button type="submit" onclick="alert('error')">Submit</button>
+                
+            </form>
+    </body>
+</html>
