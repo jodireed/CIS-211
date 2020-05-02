@@ -22,8 +22,6 @@ body {}
   position: absolute;
   background-color: white;
   text-align: center;
-  min-width: auto;
-  z-index: 1;
 }
 
 /* Links inside the dropdown */
