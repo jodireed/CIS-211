@@ -26,11 +26,17 @@ h1{
 
 header{
   text-align: center;
+  width: 100%; 
+  background-image: url(graphics/cambiumLogo.png); 
+  background-repeat: no-repeat;
 }
 
 .wrapper{
   width: auto;
   background-color:#7EB786;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
 }
 
 footer{
@@ -53,13 +59,14 @@ a:hover{}
 
 a:active{}
 
-/*Pictures*/
+/*************Pictures***************************/
 
 .homePicture{
   background-image: url(photos/homePicture.jpg);
   height: 400px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  padding-top: 50px;
 }
 
 .aboutPicture{
@@ -90,6 +97,15 @@ a:active{}
   background-repeat: no-repeat;
 }
 
+.cambiumLogo{
+  background-image: url(graphics/cambiumLogo.png);
+  background-repeat: no-repeat;
+}
+
+
+
+/***********Responsiveness***********/
+
 @media (min-width: 512px){
   nav ul {
 		display:flex;
@@ -119,13 +135,15 @@ a:active{}
 
 	nav li {
 		border-bottom: none;
-	}
+  }
+  
+  
 }
 
 @media (min-width: 1024px){
   nav ul {
 		display: flex;
-		flex-flow: column;
+		/*flex-flow: column;*/
     padding-top: 1em;
   }
 
@@ -136,6 +154,7 @@ a:active{}
 		margin: auto;
     width: 95%;
     background-color:#7EB786;
+    
 	}
 
 	header {
@@ -147,5 +166,7 @@ a:active{}
 		grid-row: 3 / 4;
 		grid-column: 2 / 3;
   }
+
+
 
 }
